@@ -1,0 +1,102 @@
+body {
+  font-family: 'PT Serif', serif;
+  margin: 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+
+h3 {
+  margin-bottom: 3rem;
+}
+
+p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.statement-img {
+  float: left;
+  margin-left: 50px;
+  width: 80%
+}
+
+.navbar-item {
+  margin: 2.5rem 5.5rem;
+}
+
+.Facility-img {
+  margin: 3rem 0;
+  border-radius: 70%;
+  width: 300px;
+  height: 300px;
+}
+
+.Header {
+  margin: 0 0 6.5rem;
+}
+
+.row {
+  padding: 1.5rem 1rem 2.5rem;
+}
+
+
+.carousel-control-next, .carousel-control-prev{
+  filter: invert(100%);
+}
+
+.Location{
+  margin: 4rem 0;
+}
+
+.socials {
+  color: #73777B;
+  padding: 10px 15px;
+}
+
+#Landing {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.guidehabitation.ca/wp-content/themes/gh/pub/auto/10750/xl-381e69c5-3fdf-4145-a869-71ddf1fc10f5.jpg");
+  background-repeat: no-repeat;
+  padding-bottom: 3rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+#Statement, #Location {
+  background-color: #EEE;
+  margin: 2rem 0;
+}
+
+#Testimonials {
+    background-color: #EEE;
+}
+
+#Contact {
+  padding: 3% 0;
+}
+
+@media screen and (max-width: 1000px) {
+
+ h1, h2, h3, h6 {
+   font-size: 50px;
+ }
+
+ p {
+   font-size: 40px;
+ }
+
+.nav-link {
+  font-size: 30px;
+}
+
+.Header {
+  margin: 20rem 0;
+}
+
+.navbar-toggler {
+  font-size:3.5rem;
+}
+}
